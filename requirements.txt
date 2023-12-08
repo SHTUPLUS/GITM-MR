@@ -1,0 +1,17 @@
+torch>=1.11.0
+numpy>=1.19.2
+pandas>=1.1.5
+setuptools>=58.0.4
+tqdm>=4.62.3
+fvcore>=0.1.5.post20211023
+opencv-python>=4.5.5.62
+Pillow>=9.0.0
+h5py>=3.6.0
+transformers>=4.15.0
+pycocotools>=2.0.1
+tabulate>=0.8.9
+termcolor>=1.1.0
+cloudpickle>=2.0.0
+matplotlib>=3.5.1
+torchvision>=0.12.0
+scipy>=1.7.3

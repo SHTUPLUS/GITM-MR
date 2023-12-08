@@ -1,0 +1,14 @@
+_BASE_: "Base-RCNN-C4.yaml"
+MODEL:
+  META_ARCHITECTURE: "OurArc"
+  WEIGHTS: "ckpt/model_len11_final.pth"
+  REF:
+    NAME: "RCRN"
+    VIS_FEAT_TYPE: "uniter"
+  MEMO: "eval_len11"
+DATASETS:
+  TRAIN: ("refreason_prop_counter_foil_rel_len11_train",)
+  TEST: ("refreason_prop_counter_foil_rel_test",)
+DATALOADER:
+  NUM_WORKERS: 4
+  ASPECT_RATIO_GROUPING: False
