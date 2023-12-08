@@ -4,6 +4,10 @@ This repository contains the official Python implementation for the ICCV 2023 pa
 
 \[[__project page__](https://weiyana.github.io/pages/dataset.html)\] \[[__paper__](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Grounded_Image_Text_Matching_with_Mismatched_Relation_Reasoning_ICCV_2023_paper.pdf)\] \[[__supp__](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Wu_Grounded_Image_Text_ICCV_2023_supplemental.pdf)\] \[[__preprint__](https://arxiv.org/abs/2308.01236)\] \[[__video__](https://youtu.be/eHXm2LrSSqE)\] 
 
+![](fig/main.png)
+
+
+
 ## Abstract
 
 > This paper introduces Grounded Image Text Matching with Mismatched Relation (GITM-MR), a novel visual-linguistic joint task that evaluates the relation understanding capabilities of transformer-based pre-trained models. GITM-MR requires a model to first determine if an expression describes an image, then localize referred objects or ground the mismatched parts of the text. We provide a benchmark for evaluating vision-language (VL) models on this task, with a focus on the challenging settings of limited training data and out-of-distribution sentence lengths. Our evaluation demonstrates that pre-trained VL models often lack data efficiency and length generalization ability. To address this, we propose the Relation-sensitive Correspondence Reasoning Network (RCRN), which incorporates relation-aware reasoning via bi-directional message propagation guided by language structure. Our RCRN can be interpreted as a modular program and delivers strong performance in terms of both length generalization and data efficiency. 
